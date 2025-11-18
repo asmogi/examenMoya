@@ -32,3 +32,8 @@ mv ../../prog/index.php ./index2.php
 echo "select * from clientes" >> ../../login
 cd ../..
 rm -r examenMoya
+git checkout main
+git merge branch2
+git tag v2
+git push --all
+git push --tag
